@@ -16,6 +16,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        let VC = TableViewController()
+        let controller  = UINavigationController(rootViewController: VC)
+        VC.navigationController?.navigationBar.prefersLargeTitles = true
+        VC.navigationController?.navigationBar.tintColor = .hotPink
+        window?.rootViewController = controller
+        window?.makeKeyAndVisible()
+        
         return true
     }
 

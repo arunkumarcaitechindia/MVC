@@ -9,19 +9,41 @@
 /* Begin PBXBuildFile section */
 		9E78B47322C4827000B06CF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E78B47222C4827000B06CF6 /* AppDelegate.swift */; };
 		9E78B47522C4827000B06CF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E78B47422C4827000B06CF6 /* ViewController.swift */; };
-		9E78B47822C4827000B06CF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E78B47622C4827000B06CF6 /* Main.storyboard */; };
 		9E78B47A22C4827600B06CF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E78B47922C4827600B06CF6 /* Assets.xcassets */; };
 		9E78B47D22C4827600B06CF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E78B47B22C4827600B06CF6 /* LaunchScreen.storyboard */; };
+		9E78B48622C4894C00B06CF6 /* TableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E78B48522C4894C00B06CF6 /* TableData.swift */; };
+		9E78B48922C48A7D00B06CF6 /* TableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E78B48822C48A7D00B06CF6 /* TableHeaderView.swift */; };
+		9E78B48C22C48D5100B06CF6 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E78B48B22C48D5100B06CF6 /* UIColorExtension.swift */; };
+		9E78B48E22C48D6200B06CF6 /* UIGradientExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E78B48D22C48D6200B06CF6 /* UIGradientExtension.swift */; };
+		9E78B49022C4961700B06CF6 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E78B48F22C4961700B06CF6 /* TableView.swift */; };
+		9E78B49222C496B900B06CF6 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E78B49122C496B900B06CF6 /* TableCell.swift */; };
+		9E78B49722C4CB9A00B06CF6 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E78B49622C4CB9A00B06CF6 /* GradientButton.swift */; };
+		9E78B49922C4CCCA00B06CF6 /* GradiantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E78B49822C4CCCA00B06CF6 /* GradiantView.swift */; };
+		9E78B49B22C4CFA100B06CF6 /* SecondaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E78B49A22C4CFA100B06CF6 /* SecondaryViewController.swift */; };
+		9E78B49D22C4DB5E00B06CF6 /* SessionNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E78B49C22C4DB5E00B06CF6 /* SessionNavigationController.swift */; };
+		9E78B49F22C4FA7A00B06CF6 /* UILabelClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E78B49E22C4FA7A00B06CF6 /* UILabelClass.swift */; };
+		9E78B4A122C5079300B06CF6 /* SecondaryControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E78B4A022C5079300B06CF6 /* SecondaryControllerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9E78B46F22C4827000B06CF6 /* LearningProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E78B47222C4827000B06CF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E78B47422C4827000B06CF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9E78B47722C4827000B06CF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E78B47922C4827600B06CF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E78B47C22C4827600B06CF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E78B47E22C4827600B06CF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E78B48522C4894C00B06CF6 /* TableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableData.swift; sourceTree = "<group>"; };
+		9E78B48822C48A7D00B06CF6 /* TableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableHeaderView.swift; sourceTree = "<group>"; };
+		9E78B48B22C48D5100B06CF6 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		9E78B48D22C48D6200B06CF6 /* UIGradientExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIGradientExtension.swift; sourceTree = "<group>"; };
+		9E78B48F22C4961700B06CF6 /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		9E78B49122C496B900B06CF6 /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		9E78B49622C4CB9A00B06CF6 /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GradientButton.swift; path = ../View/GradientButton.swift; sourceTree = "<group>"; };
+		9E78B49822C4CCCA00B06CF6 /* GradiantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GradiantView.swift; path = ../View/GradiantView.swift; sourceTree = "<group>"; };
+		9E78B49A22C4CFA100B06CF6 /* SecondaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryViewController.swift; sourceTree = "<group>"; };
+		9E78B49C22C4DB5E00B06CF6 /* SessionNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionNavigationController.swift; sourceTree = "<group>"; };
+		9E78B49E22C4FA7A00B06CF6 /* UILabelClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UILabelClass.swift; path = ../View/UILabelClass.swift; sourceTree = "<group>"; };
+		9E78B4A022C5079300B06CF6 /* SecondaryControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryControllerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +77,64 @@
 			isa = PBXGroup;
 			children = (
 				9E78B47222C4827000B06CF6 /* AppDelegate.swift */,
-				9E78B47422C4827000B06CF6 /* ViewController.swift */,
-				9E78B47622C4827000B06CF6 /* Main.storyboard */,
+				9E78B4A222C50B2B00B06CF6 /* Helper */,
+				9E78B48422C4889700B06CF6 /* Modal */,
+				9E78B48722C4898100B06CF6 /* View */,
+				9E78B49322C4B03100B06CF6 /* Controller */,
+				9E78B48A22C48D3300B06CF6 /* Extension */,
 				9E78B47922C4827600B06CF6 /* Assets.xcassets */,
-				9E78B47B22C4827600B06CF6 /* LaunchScreen.storyboard */,
 				9E78B47E22C4827600B06CF6 /* Info.plist */,
 			);
 			path = LearningProject;
+			sourceTree = "<group>";
+		};
+		9E78B48422C4889700B06CF6 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				9E78B48522C4894C00B06CF6 /* TableData.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		9E78B48722C4898100B06CF6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9E78B47B22C4827600B06CF6 /* LaunchScreen.storyboard */,
+				9E78B48822C48A7D00B06CF6 /* TableHeaderView.swift */,
+				9E78B49122C496B900B06CF6 /* TableCell.swift */,
+				9E78B48F22C4961700B06CF6 /* TableView.swift */,
+				9E78B4A022C5079300B06CF6 /* SecondaryControllerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9E78B48A22C48D3300B06CF6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9E78B48B22C48D5100B06CF6 /* UIColorExtension.swift */,
+				9E78B48D22C48D6200B06CF6 /* UIGradientExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		9E78B49322C4B03100B06CF6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9E78B47422C4827000B06CF6 /* ViewController.swift */,
+				9E78B49A22C4CFA100B06CF6 /* SecondaryViewController.swift */,
+				9E78B49C22C4DB5E00B06CF6 /* SessionNavigationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9E78B4A222C50B2B00B06CF6 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				9E78B49622C4CB9A00B06CF6 /* GradientButton.swift */,
+				9E78B49822C4CCCA00B06CF6 /* GradiantView.swift */,
+				9E78B49E22C4FA7A00B06CF6 /* UILabelClass.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +197,6 @@
 			files = (
 				9E78B47D22C4827600B06CF6 /* LaunchScreen.storyboard in Resources */,
 				9E78B47A22C4827600B06CF6 /* Assets.xcassets in Resources */,
-				9E78B47822C4827000B06CF6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +207,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E78B49922C4CCCA00B06CF6 /* GradiantView.swift in Sources */,
+				9E78B48922C48A7D00B06CF6 /* TableHeaderView.swift in Sources */,
+				9E78B48622C4894C00B06CF6 /* TableData.swift in Sources */,
+				9E78B49222C496B900B06CF6 /* TableCell.swift in Sources */,
+				9E78B49D22C4DB5E00B06CF6 /* SessionNavigationController.swift in Sources */,
+				9E78B48C22C48D5100B06CF6 /* UIColorExtension.swift in Sources */,
+				9E78B49722C4CB9A00B06CF6 /* GradientButton.swift in Sources */,
+				9E78B49022C4961700B06CF6 /* TableView.swift in Sources */,
+				9E78B49B22C4CFA100B06CF6 /* SecondaryViewController.swift in Sources */,
 				9E78B47522C4827000B06CF6 /* ViewController.swift in Sources */,
 				9E78B47322C4827000B06CF6 /* AppDelegate.swift in Sources */,
+				9E78B4A122C5079300B06CF6 /* SecondaryControllerView.swift in Sources */,
+				9E78B49F22C4FA7A00B06CF6 /* UILabelClass.swift in Sources */,
+				9E78B48E22C48D6200B06CF6 /* UIGradientExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9E78B47622C4827000B06CF6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9E78B47722C4827000B06CF6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9E78B47B22C4827600B06CF6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
